@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: ${MONGODB_HOSTNAME:localhost}
+      port: 27017
+      database: pismo
+
+mongock:
+  change-logs-scan-package: com.example.demo.dbmigrations
